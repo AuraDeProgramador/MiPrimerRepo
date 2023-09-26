@@ -1,0 +1,11 @@
+persona1 = input("Ingrese nombre de persona 1: ")
+persona2 = input("Ingrese nombre de persona 2: ")
+persona3 = input("Ingrese nombre de persona 3: ")
+inv_pers1 = float(input(f"Ingrese la cantidad invertida {persona1} : "))
+inv_pers2 = float(input(f"Ingrese la cantidad invertida {persona2} : "))
+inv_pers3 = float(input(f"Ingrese la cantidad invertida {persona3} : "))
+total = inv_pers1 + inv_pers2 + inv_pers3
+porcentaje_inv_pers1 = round((inv_pers1 / total) * 100, 2)
+porcentaje_inv_pers2 = round((inv_pers2 / total) * 100, 2)
+porcentaje_inv_pers3 = round((inv_pers3 / total) * 100, 2)
+print(f" {persona1} invirtio : {porcentaje_inv_pers1},  {persona2} invirtio : {porcentaje_inv_pers2}, {persona3} invirtio : {porcentaje_inv_pers3}")

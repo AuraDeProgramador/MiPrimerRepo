@@ -1,0 +1,61 @@
+Ejercicio 1
+nombre=input("Ingrese su nombre: ")
+print(f"Bienvenido {nombre}")
+
+Ejercicio 2
+nombre=input("Ingrese su nombre: ")
+edad=input("Ingrese su edad: ")
+print(f"Hola, {nombre}. Tu edad es {edad} años.")
+
+Ejercicio 3
+nombre=input("Ingrese su nombre: ")
+edad=int(input("Ingrese su edad: "))
+años=int(input("Ingrese una cantidad de años: "))
+print(f"Hola, {nombre}. Dentro de {años} años tendrás {edad+años}.")
+
+Ejercicio 4
+n1=int(input("Ingrese un número: "))
+n2=int(input("Ingrese un segundo número: "))
+n3=int(input("Ingrese un tercer número: "))
+print(f"{n1}+{n2}+{n3}={n1+n2+n3}.")
+
+Ejercicio 5
+n1=int(input("Ingrese la primera nota: "))
+n2=int(input("Ingrese la segunda nota: "))
+print(f"Notas: {n1} , {n2} ==> promedio: {(n1+n2)/2}")
+
+Ejercicio 6
+n1=int(input("Ingrese la nota 1: "))
+n2=int(input("Ingrese la nota 2: "))
+n3=int(input("Ingrese la nota 3: "))
+print(f"Notas: {n1} , {n2} , {n3}")
+print(f"Promedio: {(n1+n2+n3)/3}")
+
+Ejercicio 7
+n1=int(input("Ingrese un número entero: "))
+print(f"{n1} * 10 = {n1*10}")
+print(f"{n1} / 10 = {n1/10}")
+print(f"{n1} ** 2 = {n1*n1}")
+
+Ejercicio 8
+valorHora=int(input("Ingrese el valor de una hora: "))
+horasDiarias=int(input("Ingrese las horas diarias de trabajo: "))
+print(f"El salario semanal es {valorHora*horasDiarias*5.5}")
+
+Ejercicio 9
+num1=int(input("Ingrese un número: "))
+num2=int(input("Ingrese otro número: "))
+print(num1,num2)
+num1 = num1 + num2;
+num2 = num1 - num2;
+num1 = num1 - num2;
+print(num1,num2)
+
+Ejercicio 10
+inv1=float(input("Ingrese la cantidad invertida por la persona 1: "))
+inv2=float(input("Ingrese la cantidad invertida por la persona 2: "))
+inv3=float(input("Ingrese la cantidad invertida por la persona 3: "))
+total=inv1+inv2+inv3
+print(f"La inversión de la primera persona es: {inv1/total*100:3.2f}%")
+print(f"La inversión de la segunda persona es: {inv2/total*100:3.2f}%")
+print(f"La inversión de la tercera persona es: {inv3/total*100:3.2f}%")
